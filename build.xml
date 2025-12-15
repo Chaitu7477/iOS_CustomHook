@@ -1,0 +1,13 @@
+<project name="InfoPlistUpdater" default="update-info-plist">
+
+  <target name="update-info-plist">
+    <echo message="Updating Info.plist for iOS build..." />
+    <exec executable="python3" failonerror="true">
+      <arg value="update_info_plist.py" />
+      <arg value="infoPlist_configuration.json" />
+      <arg value="/Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigitalBanking/Visualizer/Builds/Channels/buildIos/vis_ws/DigitalBanking/KonyiOSWorkspace/VMAppWithKonylib/Info.plist" />
+    </exec>
+    <echo message="Info.plist update completed." />
+  </target>
+
+</project>
