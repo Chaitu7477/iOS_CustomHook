@@ -1,13 +1,17 @@
-<project name="InfoPlistUpdater" default="update-info-plist">
-
-  <target name="update-info-plist">
-    <echo message="Updating Info.plist for iOS build..." />
-    <exec executable="python3" failonerror="true">
-      <arg value="update_info_plist.py" />
-      <arg value="infoPlist_configuration.json" />
-      <arg value="/Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigitalBanking/Visualizer/Builds/Channels/buildIos/vis_ws/DigitalBanking/KonyiOSWorkspace/VMAppWithKonylib/Info.plist" />
-    </exec>
-    <echo message="Info.plist update completed." />
-  </target>
-
+<project name="ios-prebuild-req1-req2-req3" default="run" basedir=".">
+<property environment="env"/>
+<target name="run">
+<echo>Running iOS IPA_STAGE hook (resolve SPM, replace AppDelegateExtension, cleanup Certificates)…</echo>
+<echo>Ant property PROJECT_XCODEPROJECT = ${PROJECT_XCODEPROJECT}</echo>
+<echo>Env var env.PROJECT_XCODEPROJECT = ${env.PROJECT_XCODEPROJECT}</echo>
+<echo>Ant property PROJECT_VMWORKSPACE_PATH = ${PROJECT_VMWORKSPACE_PATH}</echo>
+<echo>Env var env.PROJECT_VMWORKSPACE_PATH = ${env.PROJECT_VMWORKSPACE_PATH}</echo>
+<exec executable="/bin/sh" failonerror="true">
+<arg line="scripts/ios_prebuild_merge_v7.sh"/>
+<arg value="${PROJECT_XCODEPROJECT}"/>
+<arg value="${env.PROJECT_XCODEPROJECT}"/>
+<arg value="${PROJECT_VMWORKSPACE_PATH}"/>
+<arg value="${env.PROJECT_VMWORKSPACE_PATH}"/>
+</exec>
+</target>
 </project>
