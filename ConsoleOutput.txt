@@ -1,0 +1,15 @@
+14:57:08  + set +ex
+14:57:26  Buildfile: /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook/build.xml
+14:57:31  
+14:57:31  run:
+14:57:31       [echo] Running iOS IPA_STAGE hook (resolve SPM, replace AppDelegateExtension, cleanup Certificates)…
+14:57:31       [echo] Ant property PROJECT_XCODEPROJECT = VMAppWithKonylib.xcodeproj/project.pbxproj
+14:57:31       [echo] Env var env.PROJECT_XCODEPROJECT = ${env.PROJECT_XCODEPROJECT}
+14:57:31       [echo] Ant property PROJECT_VMWORKSPACE_PATH = /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/KonyiOSWorkspace/VMAppWithKonylib
+14:57:31       [echo] Env var env.PROJECT_VMWORKSPACE_PATH = ${env.PROJECT_VMWORKSPACE_PATH}
+14:57:31       [exec] [hook] ERROR: workspace/project paths not available; ensure hook is configured at iOS IPA_STAGE
+14:57:32  
+14:57:32  BUILD FAILED
+14:57:32  /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook/build.xml:9: exec returned: 3
+14:57:32  
+14:57:32  Total time: 7 seconds
