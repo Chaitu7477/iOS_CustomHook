@@ -1,0 +1,286 @@
+Started by upstream project "DigWalletCorpCard/Visualizer/Builds/Channels/buildIos" build number 96
+originally caused by:
+ Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 141
+ originally caused by:
+  Started by user venkatan@maveric-systems.com
+  Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 140
+  originally caused by:
+   Started by user venkatan@maveric-systems.com
+   Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 139
+   originally caused by:
+    Started by user venkatan@maveric-systems.com
+    Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 138
+    originally caused by:
+     Started by user venkatan@maveric-systems.com
+     Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 137
+     originally caused by:
+      Started by user venkatan@maveric-systems.com
+      Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 136
+      originally caused by:
+       Started by user venkatan@maveric-systems.com
+       Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 135
+       originally caused by:
+        Started by user venkatan@maveric-systems.com
+        Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 134
+        originally caused by:
+         Started by user venkatan@maveric-systems.com
+         Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 133
+         originally caused by:
+          Started by user venkatan@maveric-systems.com
+          Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 132
+          originally caused by:
+           Started by user venkatan@maveric-systems.com
+           Started by upstream project "DigWalletCorpCard/Visualizer/Builds/buildVisualizerApp" build number 131
+           originally caused by:
+            (deeply nested causes)
+Loading library kony-common@master
+FSSCM.checkout /var/lib/jenkins/libraries/kony-common to /var/lib/jenkins/workspace/DigWalletCorpCard/Visualizer/CustomHooks/PRE_BUILD/Build@libs/3b3471213e8f4858dbc41ec03b8edb5066ee2d9018cbc04b5bc487a024758347
+FSSCM.clearWorkspace...
+New file: src/com/kony/appfactory/helper/CustomHookHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailTemplateHelper.groovy
+New file: src/com/kony/appfactory/helper/BuildHelper.groovy
+New file: src/com/kony/appfactory/helper/AppFactoryException.groovy
+New file: src/com/kony/appfactory/helper/CredentialsHelper.groovy
+New file: src/com/kony/appfactory/helper/ArtifactHelper.groovy
+New file: src/com/kony/appfactory/helper/ConfigFileHelper.groovy
+New file: src/com/kony/appfactory/helper/NotificationsHelper.groovy
+New file: src/com/kony/appfactory/helper/JsonHelper.groovy
+New file: src/com/kony/appfactory/helper/CustomBuildConfigHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsDeviceFarmHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailBuilder.groovy
+New file: src/com/kony/appfactory/helper/CloudBuildHelper.groovy
+New file: src/com/kony/appfactory/helper/FabricHelper.groovy
+New file: src/com/kony/appfactory/helper/TestsHelper.groovy
+New file: src/com/kony/appfactory/helper/ValidationHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsHelper.groovy
+New file: src/com/kony/appfactory/enums/Status.groovy
+New file: src/com/kony/appfactory/enums/BuildType.groovy
+New file: src/com/kony/appfactory/enums/BuildPhase.groovy
+New file: src/com/kony/appfactory/enums/PlatformType.groovy
+New file: src/com/kony/appfactory/enums/FormFactor.groovy
+New file: src/com/kony/appfactory/enums/ChannelType.groovy
+New file: src/com/kony/appfactory/sanitizers/RegexSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/TextSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/RemoveLinesSanitizer.groovy
+New file: src/com/kony/appfactory/fabricTests/RunTests.groovy
+New file: src/com/kony/appfactory/fabricTests/CucumberTests.groovy
+New file: src/com/kony/appfactory/fabricTests/FacadeTests.groovy
+New file: src/com/kony/appfactory/fabricTests/KarateTests.groovy
+New file: src/com/kony/appfactory/qualitychecks/CodeScanners.groovy
+New file: src/com/kony/appfactory/visualizer/BuildStatus.groovy
+New file: src/com/kony/appfactory/visualizer/Facade.groovy
+New file: src/com/kony/appfactory/visualizer/channels/IosChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WindowsChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AndroidChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AllChannels.groovy
+New file: src/com/kony/appfactory/visualizer/channels/DesktopWebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/Channel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/TestAutomation.groovy
+New file: src/com/kony/appfactory/visualizer/CustomBuildConfig.groovy
+New file: src/com/kony/appfactory/visualizer/customhooks/CustomHook.groovy
+New file: src/com/kony/appfactory/microservices/ConfigureMS.groovy
+New file: src/com/kony/appfactory/annotations/Path.groovy
+New file: src/com/kony/appfactory/custompipeline/CustomPipeline.groovy
+New file: src/com/kony/appfactory/custombuildconfig/CustomOperations.groovy
+New file: src/com/kony/appfactory/database/Flyway.groovy
+New file: src/com/kony/appfactory/tests/channels/RunTests.groovy
+New file: src/com/kony/appfactory/tests/channels/DesktopWebTests.groovy
+New file: src/com/kony/appfactory/tests/channels/NativeAWSDeviceFarmTests.groovy
+New file: src/com/kony/appfactory/tests/FacadeTests.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/PlatformsDTO.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/BuildStatusDTO.groovy
+New file: src/com/kony/appfactory/dto/visualizer/ProjectPropertiesDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/Device.groovy
+New file: src/com/kony/appfactory/dto/tests/DetailedNativeResults.groovy
+New file: src/com/kony/appfactory/dto/tests/NativeTestsDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/ResultsCount.groovy
+New file: src/com/kony/appfactory/fabric/Facade.groovy
+New file: src/com/kony/appfactory/fabric/Fabric.groovy
+New file: version.txt
+New file: vars/when.txt
+New file: vars/echoCustom.txt
+New file: vars/catchErrorCustom.groovy
+New file: vars/when.groovy
+New file: vars/catchErrorCustom.txt
+New file: vars/echoCustom.groovy
+New file: vars/shellCustom.txt
+New file: vars/loadLibraryResource.groovy
+New file: vars/callStageCustom.txt
+New file: vars/loadLibraryResource.txt
+New file: vars/shellCustom.groovy
+New file: vars/callStageCustom.groovy
+New file: version.html
+New file: README.md
+New file: resources/com/kony/appfactory/feature.xml.downloader/package.json
+New file: resources/com/kony/appfactory/feature.xml.downloader/readme.txt
+New file: resources/com/kony/appfactory/feature.xml.downloader/downloadFeaturesXml.js
+New file: resources/com/kony/appfactory/email/templates/KonyBase.template
+New file: resources/com/kony/appfactory/visualizer/ivysettings.xml
+New file: resources/com/kony/appfactory/visualizer/property.xml
+New file: resources/com/kony/appfactory/visualizer/apple_orig.plist
+New file: resources/com/kony/appfactory/visualizer/appfactoryPostCompileTaskForAabSupport.xml
+New file: resources/com/kony/appfactory/visualizer/ci-property.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/web/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/WebScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/appfactoryReporter.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/native/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/zip.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/NativeScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/appfactoryReporter.js
+New file: resources/com/kony/appfactory/configurations/common.properties
+New file: resources/com/kony/appfactory/configurations/Fastfile
+New file: resources/com/kony/appfactory/configurations/KonyYamlTestSpec.template
+New file: resources/com/kony/appfactory/codeCoverage/reporter.js
+
+FSSCM.check completed in 3.48 seconds
+[Pipeline] Start of Pipeline
+[Pipeline] libraryResource
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] timestamps
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+[2025-12-18T13:03:20.310Z] 
+[Pipeline] node
+[2025-12-18T13:03:20.438Z] Running on MacOSXHookAgent01 in /Users/Shared/Appfactory/Jenkins/hookslave/workspace/DigWalletCorpCard/Visualizer/CustomHooks/PRE_BUILD/Build
+[Pipeline] {
+[Pipeline] ws
+[2025-12-18T13:03:20.630Z] Running in /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws
+[Pipeline] {
+[Pipeline] isUnix
+[Pipeline] echo
+[2025-12-18T13:03:20.845Z] [0;32m [INFO] Running CustomHook [0m
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Run CustomHook)
+[Pipeline] dir
+[2025-12-18T13:03:21.141Z] Running in /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook
+[Pipeline] {
+[Pipeline] nodejs
+[Pipeline] {
+[Pipeline] sh
+[2025-12-18T13:03:22.321Z] + set +ex
+[2025-12-18T13:03:23.062Z] Buildfile: /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook/build.xml
+[2025-12-18T13:03:23.062Z] 
+[2025-12-18T13:03:23.062Z] run:
+[2025-12-18T13:03:23.062Z]      [echo] Running iOS IPA_STAGE hook (resolve SPM, replace AppDelegateExtension, cleanup Certificates)…
+[2025-12-18T13:03:23.062Z]      [echo] Ant property PROJECT_XCODEPROJECT = VMAppWithKonylib.xcodeproj/project.pbxproj
+[2025-12-18T13:03:23.062Z]      [echo] Env var    env.PROJECT_XCODEPROJECT = ${env.PROJECT_XCODEPROJECT}
+[2025-12-18T13:03:23.062Z]      [echo] Ant property PROJECT_VMWORKSPACE_PATH = /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/KonyiOSWorkspace/VMAppWithKonylib
+[2025-12-18T13:03:23.062Z]      [echo] Env var    env.PROJECT_VMWORKSPACE_PATH = ${env.PROJECT_VMWORKSPACE_PATH}
+[2025-12-18T13:03:23.457Z]      [exec] /bin/bash: /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook/../scripts/add_spm_dependencies.sh: No such file or directory
+[2025-12-18T13:03:23.857Z] 
+[2025-12-18T13:03:23.857Z] BUILD FAILED
+[2025-12-18T13:03:23.857Z] /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/Hook/build.xml:14: exec returned: 127
+[2025-12-18T13:03:23.857Z] 
+[2025-12-18T13:03:23.857Z] Total time: 0 seconds
+[Pipeline] }
+[Pipeline] // nodejs
+[Pipeline] stage
+[Pipeline] { (Prepare Environment for actual Build Run)
+[Pipeline] dir
+[2025-12-18T13:03:24.263Z] Running in /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws/DigWalletCorpCard/CustomHooks
+[Pipeline] {
+[Pipeline] writeFile
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] dir
+[2025-12-18T13:03:24.619Z] Running in /Users/Shared/Appfactory/Jenkins/buildslave/workspace/DigWalletCorpCard/Visualizer/Builds/Channels/buildIos/vis_ws
+[Pipeline] {
+[Pipeline] sh
+[2025-12-18T13:03:25.188Z] + set +xe
+[Pipeline] sh
+[2025-12-18T13:03:28.672Z] + set +xe
+[Pipeline] sh
+[2025-12-18T13:03:29.897Z] + set +xe
+[Pipeline] sh
+[2025-12-18T13:03:31.584Z] + set +xe
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // ws
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] }
+[2025-12-18T13:03:32.980Z] 
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // timestamps
+[Pipeline] End of Pipeline
+Also:   hudson.remoting.ProxyException: org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 4d1b7fbe-3262-460f-8774-e22784c36cf3
+hudson.remoting.ProxyException: com.kony.appfactory.helper.AppFactoryException: Hook build execution failed!!
+	at com.kony.appfactory.visualizer.customhooks.CustomHook.processPipeline(CustomHook.groovy:108)
+	at ___cps.transform___(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.DefaultInvoker.constructorCall(DefaultInvoker.java:25)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.constructorCall(LoggingInvoker.java:122)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:100)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor423.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:180)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:422)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE
